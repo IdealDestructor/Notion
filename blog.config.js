@@ -240,9 +240,6 @@ const BLOG = {
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon'
   },
 
-  // RSS
-  ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
-
   // 作废配置
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || 'https://s4.ax1x.com/2022/01/09/7FSHRx.jpg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
   TITLE: process.env.NEXT_PUBLIC_TITLE || "Notion.", // 站点标题 ，被notion中的页面标题覆盖
